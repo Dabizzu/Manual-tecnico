@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Desarrollo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Manual técnico</title>
+    <link rel="shortcut icon" href="logoc.png" type="image/x-icon">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <section id="menu">
+    <div class="menu">
+        <header class="header">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="index.html">INTRODUCCIÓN</a></li>
+                
+                <li class="nav-link objetivos"><a href="objetivos.html">OBJETIVOS</a></li>
+                <li class="nav-link"><a href="desarrollo.html">DESARROLLO</a></li>
+                <li class="nav-link"><a href="Glosario.html">GLOSARIO</a></li>
+                <li class="nav-link"><a href="Bibliografia.html">BIBLIOGRAFÍA</a></li>
+                <li class="nav-link"><a href="Conclusion.html">CONCLUSIÓN</a></li>
+                <li class="nav-link"><a href="Recomendaciones.html">RECOMENDACIONES</a></li>
+            </ul>
+        </nav>
+        </header>
+    </div>
+    </section>
+    <section id="carrusel">
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" 
+                        name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="Desarrollo (1).jpg">
+                    <label class="slide-text"><span>Mantenimiento Correctivo y Preventivo de Hardware y Software</span> <br>
+                        <br> El Mantenimiento de Hardware y Software es esencial para asegurar el correcto funcionamiento y la prolongación de la vida útil de los equipos de cómputo. Este mantenimiento se divide en dos tipos principales: Preventivo y Correctivo.
+                        </label>
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" 
+                        name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="Desarrollo (2).jpg">
+                    <label class="slide-p"><span>Mantenimiento Preventivo:</span> <br><br> Se realiza de manera regular para evitar fallas futuras. En el hardware, incluye la limpieza de componentes internos y externos, como ventiladores y conexiones, para prevenir la acumulación de polvo que puede generar sobrecalentamiento. En el software, implica la actualización continua del sistema operativo, la instalación de parches de seguridad y la realización de copias de seguridad periódicas. Estas acciones protegen los equipos contra amenazas de seguridad y aseguran la disponibilidad de los datos.</label>
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" 
+                        name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="Desarrollo (3).jpg">
+                    <label class="slide-p"><span>Mantenimiento Correctivo:</span> <br><br> Se lleva a cabo cuando ya se presenta un problema o falla en el sistema. En hardware, esto puede implicar la reparación o reemplazo de componentes defectuosos, como tarjetas o discos duros. En software, se centra en la resolución de problemas como la eliminación de virus, la reparación de archivos corruptos o incluso la reinstalación del sistema operativo si es necesario.
+                        </label>
+                </div>
+                <input class="slide-open" type="radio" id="slide-4" 
+                name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                <video class="video" autoplay muted loop>
+                    <source src="Desarrollo1.mp4" type="video/mp4">
+                </video>
+                </div>
+                <input class="slide-open" type="radio" id="slide-5" 
+                        name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                <video class="video2" autoplay muted loop>
+                    <source src="Desarrollo2.mp4" type="video/mp4">
+                </video>
+                </div>
+                <label for="slide-5" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-4" class="slide-control next control-3">›</label>
+                <label for="slide-3" class="slide-control prev control-4">‹</label>
+                <label for="slide-5" class="slide-control next control-4">›</label>
+                <label for="slide-4" class="slide-control prev control-5">‹</label>
+                <label for="slide-1" class="slide-control next control-5">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-4" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-5" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section id="uni">
+        <a href="http://upta.edu.ve" class="boton-imagen">
+            <img src="UPTA-logo-b.png" alt="Botón" class="imagen-boton">
+        </a>
+    </section>
+</body>
+</html>
